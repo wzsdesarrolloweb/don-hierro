@@ -1,0 +1,165 @@
+.customForm{
+    padding-left:10%;
+    padding-right: 10%;
+    padding-bottom: 20px;
+}
+
+.telefonos{
+    display: flex;
+}
+.btn-whatsapp {
+    display:block;
+    width:70px;
+    height:70px;
+    color:#fff;
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+}
+.navBar{
+    background-color:#C9E265; 
+    padding-top: 5px !IMPORTANT;
+    padding-bottom: 5px !IMPORTANT;
+
+}
+.listaServicios{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.contenedor { 
+    background-image:url('/img/formasDePago.jpg'); 
+    background-size: cover;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+} 
+.customFooter{
+    background-color: #fff951;
+    flex-direction: column;
+}
+.footerContent{
+    margin-top: 2em;
+    margin-left: 2em;
+}
+/* clases para circulo de imagenes */
+.circulo-container { 
+    background-image:url('/img/fondoCirculo.jpg'); 
+    background-size: cover;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+} 
+.circle-container { 
+    position: relative; 
+    width: 10em; 
+    height: 10em; 
+    padding: 2em; /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/ 
+    /* border: dashed 1px; */
+    border-radius: 50%;     
+    margin: 2em auto 2.5em; 
+} 
+.circle-container a { 
+    display: block; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    width: 5em; 
+    height: 5em; 
+    margin: -2.5em; 
+} 
+.circle-container img { 
+    display: block; 
+    width: 100%; 
+    border-radius: 50%;    
+
+}
+.center-size {
+    width: 1.5em;    
+}
+.deg0 { 
+    transform: translate(8em); 
+} /* 8em = half the width of the wrapper */ 
+.deg45 { 
+    transform: rotate(45deg) translate(8em) rotate(-45deg);
+} 
+.deg135 { 
+    transform: rotate(135deg) translate(8em) rotate(-135deg); 
+} 
+.deg120 { 
+    transform: translate(-8em); 
+} 
+.deg180 { 
+    transform: translate(-8em); 
+} 
+.deg225 { 
+    transform: rotate(225deg) translate(8em) rotate(-225deg); 
+} 
+.deg315 { 
+    transform: rotate(315deg) translate(8em) rotate(-315deg); 
+}
+.hover_workblog {    
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: -130%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in all 0.4s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.work_blog:hover .hover_workblog,
+.work_blog:focus .hover_workblog {
+    visibility: visible;
+    opacity: 1;
+    top: 0%;
+}
+
+/* SECCION SERVICIOS */
+.full {
+	float: left;
+	width: 100%;
+}
+.feature_box {
+    height: auto;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.10);
+    padding: 20px;
+    text-align: center;
+    transition: ease all 0.5s;
+}
+.about_section {
+    background: transparent;
+}
+.feature_box:hover,
+.feature_box:focus {
+  background: #fff951;
+}
+.feature_box:hover h4,
+.feature_box:focus h4,
+.feature_box:hover p,
+.feature_box:focus p {
+	color: #000;
+}
+.feature_box:hover img.default-block,
+.feature_box:focus img.default-block {
+	display: none;
+}
+.feature_box:hover img.default-none,
+.feature_box:focus img.default-none {
+	display: initial;
+}
+.feature_box p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color:black
+}
+

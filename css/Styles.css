@@ -1,0 +1,201 @@
+.customForm{
+    padding-left:10%;
+    padding-right: 10%;
+    padding-bottom: 20px;
+}
+
+.telefonos{
+    display: flex;
+}
+.btn-whatsapp {
+    display:block;
+    width:70px;
+    height:70px;
+    color:#fff;
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+}
+.navBar{
+    background-color:#C9E265; 
+    padding-top: 5px !IMPORTANT;
+    padding-bottom: 5px !IMPORTANT;
+
+}
+.listaServicios{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.contenedor {     
+    display: flex;
+    width:100%;
+    height:100%;
+    padding-bottom: 3rem;
+} 
+.customFooter{
+    display: flex;
+    background-color: #fff951;
+}
+.footerContent{
+    margin-top: 2em;
+    margin-left: 2em;
+}
+.footerContent a:link{
+    /* text-decoration: none; */
+    color:black
+}
+.footerContent a:visited{
+    /* text-decoration: none; */
+    color:black
+}
+
+
+/* clases para circulo de imagenes */
+.circulo-container { 
+    background-image:url('/img/fondoCirculo.jpg'); 
+    background-size: cover;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+} 
+
+.circle-container { 
+    position: relative; 
+    width: 16em; 
+    height: 16em; 
+    padding: 2.8em; /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/ 
+    /* border: dashed 1px; */
+    border-radius: 50%;     
+    margin: 4em auto 5em; 
+} 
+.circle-container a { 
+    display: block; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    width: 14em; 
+    height: 14em; 
+    margin: -7em; 
+} 
+.circle-container img { 
+    display: block; 
+    width: 100%; 
+    border-radius: 50%;
+}
+.center-size {
+    width: 10em;    
+}
+.deg0 { 
+    transform: translate(20em); 
+} /* 18em = half the width of the wrapper */ 
+.deg45 { 
+    transform: rotate(45deg) translate(18em) rotate(-45deg);
+} 
+.deg135 { 
+    transform: rotate(135deg) translate(18em) rotate(-135deg); 
+} 
+.deg180 { 
+    transform: translate(-20em); 
+} 
+.deg225 { 
+    transform: rotate(225deg) translate(18em) rotate(-225deg); 
+} 
+.deg315 { 
+    transform: rotate(315deg) translate(18em) rotate(-315deg); 
+}
+.hover_workblog {    
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: -130%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in all 0.4s;
+    visibility: hidden;
+    opacity: 0;
+}
+.work_blog:hover .hover_workblog,
+.work_blog:focus .hover_workblog {
+    visibility: visible;
+    opacity: 1;
+    top: 0%;
+}
+
+.img-responsive {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.margin-top_30 {
+	margin-top: 30px;
+}
+.work {
+	position: relative;
+	transition: ease all 0.4s;
+	overflow: hidden;
+}
+
+.hover_work {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: -101%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease all 0.4s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.work:hover .hover_work,
+.work:focus .hover_work {
+    visibility: visible;
+    opacity: 1;
+    top: 0%;
+}
+.section {
+    float: left;
+    width: 100%;
+}
+.about_section {
+    background: transparent;
+}
+.layout_padding {
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+/* BANNERS */
+#client_slider .carousel-indicators {
+	bottom: -45px;
+	
+}
+
+#client_slider .carousel-indicators li {
+	height: 15px;
+	width: 15px;
+	border-radius: 100%;
+	background: #70c271;
+}
+
+#client_slider .carousel-indicators li.active {
+	background: #e91327;
+}
+.indicadores{
+    color:#7EC38D
+}
+.redesNav{
+    color:White
+}
+
